@@ -24,11 +24,30 @@
 
 from __future__ import absolute_import
 
-# import models into model package
-from .billing_profile_details import BillingProfileDetails
-from .billing_profile_eligibility import BillingProfileEligibility
-from .billing_profiles_collection import BillingProfilesCollection
-from .billing_profiles_collection_inner import BillingProfilesCollectionInner
-from .billing_profiles_collection_inner_addresses import BillingProfilesCollectionInnerAddresses
-from .billing_profiles_collection_inner_links import BillingProfilesCollectionInnerLinks
-from .error import Error
+import os
+import sys
+import unittest
+
+import swagger_client
+from swagger_client.rest import ApiException
+from swagger_client.models.billing_profiles_collection_inner_addresses import BillingProfilesCollectionInnerAddresses
+
+
+class TestBillingProfilesCollectionInnerAddresses(unittest.TestCase):
+    """ BillingProfilesCollectionInnerAddresses unit test stubs """
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    def testBillingProfilesCollectionInnerAddresses(self):
+        """
+        Test BillingProfilesCollectionInnerAddresses
+        """
+        model = swagger_client.models.billing_profiles_collection_inner_addresses.BillingProfilesCollectionInnerAddresses()
+
+
+if __name__ == '__main__':
+    unittest.main()

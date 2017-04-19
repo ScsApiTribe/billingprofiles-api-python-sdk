@@ -29,6 +29,7 @@ from .models.billing_profile_details import BillingProfileDetails
 from .models.billing_profile_eligibility import BillingProfileEligibility
 from .models.billing_profiles_collection import BillingProfilesCollection
 from .models.billing_profiles_collection_inner import BillingProfilesCollectionInner
+from .models.billing_profiles_collection_inner_addresses import BillingProfilesCollectionInnerAddresses
 from .models.billing_profiles_collection_inner_links import BillingProfilesCollectionInnerLinks
 from .models.error import Error
 

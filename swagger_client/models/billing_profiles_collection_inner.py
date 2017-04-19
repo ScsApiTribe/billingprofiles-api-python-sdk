@@ -46,7 +46,7 @@ class BillingProfilesCollectionInner(object):
             'type': 'str',
             'language': 'str',
             'links': 'list[BillingProfilesCollectionInnerLinks]',
-            'addresses': 'list[str]'
+            'addresses': 'list[BillingProfilesCollectionInnerAddresses]'
         }
 
         self.attribute_map = {
@@ -168,7 +168,7 @@ class BillingProfilesCollectionInner(object):
 
 
         :return: The addresses of this BillingProfilesCollectionInner.
-        :rtype: list[str]
+        :rtype: list[BillingProfilesCollectionInnerAddresses]
         """
         return self._addresses
 
@@ -179,7 +179,7 @@ class BillingProfilesCollectionInner(object):
 
 
         :param addresses: The addresses of this BillingProfilesCollectionInner.
-        :type: list[str]
+        :type: list[BillingProfilesCollectionInnerAddresses]
         """
 
         self._addresses = addresses
