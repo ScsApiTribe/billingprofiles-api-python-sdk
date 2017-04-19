@@ -30,11 +30,11 @@ import unittest
 
 import swagger_client
 from swagger_client.rest import ApiException
-from swagger_client.models.billing_profiles_collection_inner_addresses import BillingProfilesCollectionInnerAddresses
+from swagger_client.models.customer_address import CustomerAddress
 
 
-class TestBillingProfilesCollectionInnerAddresses(unittest.TestCase):
-    """ BillingProfilesCollectionInnerAddresses unit test stubs """
+class TestCustomerAddress(unittest.TestCase):
+    """ CustomerAddress unit test stubs """
 
     def setUp(self):
         pass
@@ -42,11 +42,11 @@ class TestBillingProfilesCollectionInnerAddresses(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testBillingProfilesCollectionInnerAddresses(self):
+    def testCustomerAddress(self):
         """
-        Test BillingProfilesCollectionInnerAddresses
+        Test CustomerAddress
         """
-        model = swagger_client.models.billing_profiles_collection_inner_addresses.BillingProfilesCollectionInnerAddresses()
+        model = swagger_client.models.customer_address.CustomerAddress()
 
 
 if __name__ == '__main__':

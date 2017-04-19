@@ -24,22 +24,30 @@
 
 from __future__ import absolute_import
 
-# import models into sdk package
-from .models.billing_profile_details import BillingProfileDetails
-from .models.billing_profile_eligibility import BillingProfileEligibility
-from .models.billing_profiles_collection import BillingProfilesCollection
-from .models.billing_profiles_collection_inner import BillingProfilesCollectionInner
-from .models.billing_profiles_collection_inner_links import BillingProfilesCollectionInnerLinks
-from .models.customer_address import CustomerAddress
-from .models.customer_address_inner import CustomerAddressInner
-from .models.error import Error
+import os
+import sys
+import unittest
 
-# import apis into sdk package
-from .apis.default_api import DefaultApi
+import swagger_client
+from swagger_client.rest import ApiException
+from swagger_client.models.customer_address_inner import CustomerAddressInner
 
-# import ApiClient
-from .api_client import ApiClient
 
-from .configuration import Configuration
+class TestCustomerAddressInner(unittest.TestCase):
+    """ CustomerAddressInner unit test stubs """
 
-configuration = Configuration()
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    def testCustomerAddressInner(self):
+        """
+        Test CustomerAddressInner
+        """
+        model = swagger_client.models.customer_address_inner.CustomerAddressInner()
+
+
+if __name__ == '__main__':
+    unittest.main()

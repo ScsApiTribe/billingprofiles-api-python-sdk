@@ -46,7 +46,7 @@ class BillingProfileDetails(object):
             'type': 'str',
             'language': 'str',
             'links': 'list[BillingProfilesCollectionInnerLinks]',
-            'addresses': 'list[str]'
+            'addresses': 'CustomerAddress'
         }
 
         self.attribute_map = {
@@ -168,7 +168,7 @@ class BillingProfileDetails(object):
 
 
         :return: The addresses of this BillingProfileDetails.
-        :rtype: list[str]
+        :rtype: CustomerAddress
         """
         return self._addresses
 
@@ -179,7 +179,7 @@ class BillingProfileDetails(object):
 
 
         :param addresses: The addresses of this BillingProfileDetails.
-        :type: list[str]
+        :type: CustomerAddress
         """
 
         self._addresses = addresses
